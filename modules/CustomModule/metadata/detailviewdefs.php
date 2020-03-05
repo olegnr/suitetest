@@ -17,11 +17,15 @@ $viewdefs[$module_name]['DetailView'] = array(
             array('label' => '10', 'field' => '30'),
             array('label' => '10', 'field' => '30')
         ),
-		'includes' => 
+		'includes' =>
 		  array (
 			0 => 
 			array (
 			  'file' => 'modules/CustomModule/js/multi_fields_for_detail.js',
+			),
+			1 => 
+			array (
+			  'file' => 'modules/CustomModule/js/inline_edit_subpanel.js',
 			),
 		  ),
     ),

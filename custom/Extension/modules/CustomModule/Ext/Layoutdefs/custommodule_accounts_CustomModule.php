@@ -3,7 +3,7 @@
 $layout_defs["CustomModule"]["subpanel_setup"]['custommodule_accounts'] = array (
   'order' => 100,
   'module' => 'Accounts',
-  'subpanel_name' => 'default',
+  'subpanel_name' => 'ForCustomModule',
   'sort_order' => 'asc',
   'sort_by' => 'id',
   'title_key' => 'LBL_CUSTOMMODULE_ACCOUNTS_FROM_ACCOUNTS_TITLE',
